@@ -1,1 +1,4 @@
-.xcodeproj
+# Ignore this junk #
+####################
+*.o
+*.out
