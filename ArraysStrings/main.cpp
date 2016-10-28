@@ -6,6 +6,7 @@
 #include <iostream>
 #include <string>
 #include <cmath>
+#include <ctype.h>
 
 
 using namespace std;
@@ -82,6 +83,7 @@ bool oneAway(string str1, string str2){
 }
 
 int main(int argc, const char * argv[]) {
+    cout << (char) toupper('C') << " " << (int) 'A' << endl;
     cout << "Is there a duplicate in 'this string' " << isUnique("this string") << endl;
     cout << "Test URLify " << URLify("This is a test!      ", 15)<< endl;
     cout << oneAway("abcd","acd");
